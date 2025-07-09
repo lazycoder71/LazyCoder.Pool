@@ -1,0 +1,30 @@
+{
+  "name": "lazycoder.unity.pool",
+  "displayName": "LazyCoder Pool",
+  "version": "1.0.0",
+  "unity": "6000.1",
+  "description": "Pooling solution in Unity.",
+  "keywords": [
+    "pool",
+    "unity"
+  ],
+  "bugs": {
+    "url": "https://github.com/lazycoder71/LazyCoder.Pool/issues",
+    "email": "lamnd.bounce@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazycoder71/LazyCoder.Pool.git"
+  },
+  "samples": [{
+    "displayName": "Demo",
+    "description": "Demo using Pool",
+    "path": "Samples~/Demo"
+  }],
+  "license": "MIT",
+  "author": {
+    "name": "Lam Nguyen",
+    "email": "lamnd.bounce@gmail.com",
+    "url": "https://www.facebook.com/theycallmelam"
+  }
+}

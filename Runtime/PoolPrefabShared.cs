@@ -34,7 +34,8 @@ namespace LazyCoder.Pool
         {
             GameObject result = Get(prefab);
 
-            result.transform.parent = parent;
+            // Same as assigning parent, but a RectTransform root no longer logs Unity's SetParent warning
+            result.transform.SetParent(parent, true);
             result.transform.position = position;
             result.transform.rotation = rotation;
 
